@@ -1,3 +1,11 @@
+* {
+  border: 5px red dotted !important;
+  border-width: 5px 10px 0 0 !important;
+}
+html {
+  -webkit-filter: contrast(8) blur(1px);
+}
+
 @font-face {
   font-family: oswald;
   src: url("fonts/oswald.ttf") format("truetype"); }
